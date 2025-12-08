@@ -5,10 +5,10 @@ variable "webserver_instance_type" {
    default = "t3.micro"
 }
 variable "webserver_key_name" {
-   default = "30july"
+   default = "kubernetes"
 }
 variable "webserver_vpc_security_group_ids" {
-   default = "sg-0bbfe8e7d4bf3c179"
+   default = "sg-0c532b3818fa042a4"
 }
 variable "webserver_disable_api_termination" {
    default = false
