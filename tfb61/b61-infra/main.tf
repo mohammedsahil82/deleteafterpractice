@@ -64,7 +64,7 @@ output "webserver_sg_arn" {
 }
 
 data "aws_security_group" "data_webserver_sg" {
-  name = "launch-wizard-4"
+  name = "launch-wizard-5"
 
 }
 
@@ -81,7 +81,7 @@ data "aws_ami" "data_webserver_ami" {
     values = ["hvm"]
   }
 
-  owners = [ "813592692089"] # Amazon
+  owners = [ "774673468793"] # Amazon
 
 }
 
